@@ -1,0 +1,26 @@
+Buen día, equipo:
+
+Como parte del programa de mantenimiento preventivo de los equipos de cómputo, el Departamento de Sistemas ha programado la revisión de los equipos correspondientes a su área.
+Horario: <Horario>
+Duración estimada: de 30 a 60 minutos.
+
+En caso de que la fecha propuesta afecte la operación del área, podrán solicitar el cambio a una de las opciones disponibles en los meses indicados:
+•	Septiembre
+•	Octubre
+•	Noviembre
+•	Diciembre
+
+Favor de confirmar la fecha seleccionada a más tardar <Fecha>. Las alternativas estarán sujetas a disponibilidad y quedarán reservadas únicamente después de recibir la confirmación del Departamento de Sistemas.
+Antes del mantenimiento, solicitamos al usuario:
+
+•	Guardar su trabajo y cerrar los programas abiertos.
+•	DEJAR LA SESION ACTIVA
+•	Mantener disponibles el equipo y sus accesorios.
+•	Informar previamente cualquier falla o comportamiento inusual.
+•	Verificar que los archivos de trabajo estén almacenados en la ubicación autorizada o respaldados.
+
+Si no recibimos respuesta dentro del plazo indicado, se conservará la fecha originalmente programada. Cualquier reprogramación posterior dependerá de los espacios disponibles y podría trasladarse a una fecha posterior.
+Agradecemos su apoyo para mantener los equipos en condiciones adecuadas de funcionamiento y seguridad.
+Saludos cordiales,
+Departamento de Sistemas
+
