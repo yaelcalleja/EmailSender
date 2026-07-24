@@ -5,8 +5,8 @@ __pycache__/
 *.py[cod]
 
 # 2. To prevent possible data leaks
-assets/*.log
-*.log
+assets/*
+
 
 # 3. Enviroment variables
 .env
