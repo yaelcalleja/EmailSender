@@ -19,11 +19,13 @@ def envio_automatico(): # En esta función buscaremos que nuestro csv tenga list
             if fecha == fecha_actual: # Al automatizar la ejecución diaria, buscamos que la fecha de agenda sea la misma del día que se ejecuta
                 for datos in df.iloc[posicion]:
                            # El script leerá la columna fecha y cuando coincida con la fecha del día de ejecución tomará los datos de esa fila en específico
-                    Fecha = fecha,
-                    Area = datos["Área"]
-                    '''
-                    Terminar de colocar los datos que va a llevar el correo final; Hora de inicio y finalización, Fecha y retornar esos datos  
-                    '''
+                    datos_recolectados = {
+                    "Fecha": fecha,
+                    "Area": datos["Área"],
+                    "Hora_de_Inicio": datos["Inicio"],
+                    "Hora_de_Fin": datos["Fin"]
+                    }
+                    
             else:
                 pass
 
