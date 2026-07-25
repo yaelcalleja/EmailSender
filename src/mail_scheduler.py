@@ -25,7 +25,9 @@ def envio_automatico(): # En esta función buscaremos que nuestro csv tenga list
                     "Hora_de_Inicio": datos["Inicio"],
                     "Hora_de_Fin": datos["Fin"]
                     }
-                    
+                    """
+                    Escribir el diccionario en un archivo .py para que mail maker pueda tomar los datos de ahí
+                    """
             else:
                 pass
 
