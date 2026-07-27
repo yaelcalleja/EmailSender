@@ -11,6 +11,7 @@ def envio_automatico(): # En esta función buscaremos que nuestro csv tenga list
     el archivo específico con sys os
     '''
     csv_de_rellenado = "assets/Schedule/Calendario_Mantenimiento_Computadoras_2026.csv"  # Para cambiar el archivo a analizar habrá que cambiar el hardcode
+    datos_recolectados_del_dia = []
     try:
         df = po.read_csv(csv_de_rellenado, encoding="utf-8") # Cargamos el archivo a pandas (el encoding es para que los acentos no generen caracteres raros)
         fecha_actual = datetime.now().strftime("%d/%m/%Y") 
@@ -25,9 +26,7 @@ def envio_automatico(): # En esta función buscaremos que nuestro csv tenga list
                     "Hora_de_Inicio": datos["Inicio"],
                     "Hora_de_Fin": datos["Fin"]
                     }
-                    """
-                    Escribir el diccionario en un archivo .py para que mail maker pueda tomar los datos de ahí
-                    """
+                    datos_recolectados_del_dia.append(datos_recolectados)
             else:
                 pass
 
